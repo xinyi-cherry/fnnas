@@ -248,10 +248,11 @@ on:
       fnnas_kernel:
         description: "Select fnnas kernel version"
         required: false
-        default: "6.18.y"
+        default: "6.11.y"
         type: choice
         options:
           - 6.18.y
+          - 6.11.y
       auto_kernel:
         description: "Auto use the latest kernel"
         required: false
