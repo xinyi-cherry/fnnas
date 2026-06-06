@@ -55,7 +55,7 @@ debs_install="none"
 # Whether to download and use DTB files (true/yes)
 dtbs_install="true"
 # Kernel DTB version to download (e.g., 6.18.y)
-dtbs_version="6.18.y"
+dtbs_version="6.1.141"
 
 # Server information
 arch_info="$(uname -m)"
