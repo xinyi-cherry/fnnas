@@ -245,6 +245,7 @@ on:
         type: choice
         options:
           - ophub/fnnas
+          - xinyi-cherry/fnnas
       fnnas_kernel:
         description: "Select fnnas kernel version"
         required: false
