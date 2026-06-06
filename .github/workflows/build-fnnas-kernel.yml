@@ -36,10 +36,11 @@ on:
       dtbs_version:
         description: "Set kernel dtbs version"
         required: false
-        default: "6.18.y"
+        default: "6.1.141"
         type: choice
         options:
           - 6.18.y
+          - 6.1.141
       dtbs_install:
         description: "Install kernel dtbs files"
         required: false
